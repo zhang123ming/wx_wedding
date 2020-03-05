@@ -1,0 +1,44 @@
+.guest {
+  width: 100%;
+  height: 100%;
+  background: url('http://www.zhangmingblog.com/wedding/bgc2.png') no-repeat;
+  background-size: 100% 100%;
+  background-position: center 0;
+  z-index: 100;
+}
+
+.box {
+  padding-top: 80px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+input, .picter {
+  border: 1px solid #918e8e;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input, #message, .picter {
+  text-indent: 0.3em;
+}
+
+#message {
+  border: 1px solid #918e8e;
+  border-radius: 5px;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.picter {
+  display: flex;
+  align-items: center;
+  color: #818181;
+}
+
+.btn {
+  width: 100% !important;
+}

@@ -1,0 +1,16 @@
+<view class="guest">
+  <view class="box">
+    <form bindsubmit="formSubmit">
+      <input name="name" auto-focus placeholder="输入您的姓名" bindblur="nameChange"></input>
+      <input name="phone" maxlength="11" placeholder="输入您的手机号码" type="number" bindblur="phoneChange"></input>
+      <picker class="picter" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker">
+          参加婚礼人数 ：{{array[index]}} 人
+        </view>
+      </picker>
+      <textarea id="message" placeholder="输入您的祝福语"></textarea>
+      <button class="btn" formType="submit" type="primary" plain hover-class="none">提交</button>
+    </form>
+
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<view class="container">
+  <image class="bgc" src="http://www.zhangmingblog.com/wedding/bgc1.png"></image>
+  <view class="mp3" >
+    <image class="music" bindtap='playMusic' animation="{{animation}}" mode="scaleToFill" src="./../../img/music.png"></image>
+  </view>
+  <view class="phone-box">
+    <image class="phone-1" bindtap="callBride" src="./../../img/phone.png"></image>
+    <image class="phone-2" bindtap="callgroom" src="./../../img/phone.png"></image>
+  </view>
+</view>

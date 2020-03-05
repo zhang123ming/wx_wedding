@@ -1,0 +1,55 @@
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.bgc {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.mp3 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.mp3 .music {
+  width: 30px;
+  height: 30px;
+}
+
+.phone-box {
+  z-index: 10px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.phone-box image {
+  width: 15px;
+  height: 15px;
+}
+
+.phone-box .phone-1 {
+  position: absolute;
+  left: 25%;
+  top: 58%;
+}
+
+.phone-box .phone-2 {
+  position: absolute;
+  right: 23%;
+  top: 58%;
+}

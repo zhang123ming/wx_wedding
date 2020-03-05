@@ -1,0 +1,13 @@
+<view class="video">
+  <view>
+    <txv-video vid="e0354z3cqjp" playerid="txv1"></txv-video>
+
+    <view wx:if="{{src!=null}}" class="video-box">
+      <video id="myVideo" src="{{src}}" danmu-list="{{danmu-list}}" enable-danmu danmu-btn controls></video>
+      <input bindblur="bindInputBlur" placeholder="说点什么呢 ~"></input>
+      <button bindtap="bindSendDanmu">发送弹幕</button>
+    </view>
+    <button bindtap="bindTapButton" class="add" type="primary" plain>获取本地视频</button>
+  </view>
+
+</view>

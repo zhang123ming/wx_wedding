@@ -1,0 +1,11 @@
+<view class="picture">
+  <swiper class="swiper" circular vertical indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{pictureList}}" wx:key="*this">
+      <swiper-item>
+        <view class="swiper-item" style="height；100%;">
+          <image src="{{item}}" class="slide-image" data-indexurl='{{item}}'></image>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
